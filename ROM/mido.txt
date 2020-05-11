@@ -1,2 +1,15 @@
-List Changelogs for mido; 
-- Soon 
+All ROM Changelogs for mido:
+- Include MiuiCamera from Daisy
+- Rework Audio HAL
+- Add RTT mode on Carrier Config
+- Disable VT for specific operator 
+- Fix the flicker issue this time
+- Reimported Crosshatch EAS PowerHAL with Optimized Powerhint Thanks to @Nicklas373 & @Alvian29
+- Put msm_irqbalance on system_background
+- Set hvdcp_opti service as disabled 
+- Tuning EAS PowerHAL (Schedutil, Idle State, Stune Camera, VM, CpuSets)
+- Imported Game Jank Reducer (libdolphin and libqti-at)
+- Update qti-telephony from daisy-QKQ1.191002.002
+- Update msm_irqbalance from sailfish-QP1A.191005.007
+- Switch to EAS Perf from Taimen-QQ2A.200501.001 
+- Maybe more staytune.....
