@@ -1,3 +1,5 @@
-Repository for keeping my changelogs rom and kernel. Including much trash and useless stuff here
+![logo](https://raw.githubusercontent.com/Rafiester/Public_Stuff/master/Antirain.png)
 
-Rafiester | AvariceProjectX 2019-2020
+<p align="center">
+<b>Avarice Project X | 2019-2020</b>
+</p>
