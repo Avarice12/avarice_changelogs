@@ -1,15 +1,15 @@
 All ROM Changelogs for mido:
 - Include MiuiCamera from Daisy
 - Rework Audio HAL
-- Disable VT for specific operator 
 - Fix the flicker issue this time
-- Reimported Crosshatch EAS PowerHAL with Optimized Powerhint Thanks to @Nicklas373 & @Alvian29
-- Put msm_irqbalance on system_background
 - Set hvdcp_opti service as disabled 
 - Disable perfd prop for now
 - Disable Sched boost
 - Fix Dual SIM
 - Silence GMS Denials
+- Vulkan Set as default gpu rendering now (Improved Perf and SOT)
+- Put msm_irqbalance on system_background
+- Reimported Crosshatch EAS PowerHAL with Optimized Powerhint Thanks to @Nicklas373 & @Alvian29
 - Setprop vendor.gpu.available & Remove KPI marker at ADSP start. 
 - Tuning EAS PowerHAL (Schedutil, Idle State, Stune Camera, VM, CpuSets)
 - Imported Game Jank Reducer (libdolphin and libqti-at)
@@ -18,6 +18,4 @@ All ROM Changelogs for mido:
 - Switch to EAS Perf from Taimen-QQ2A.200501.001 
 = Update CarrierConfig from LA.UM.8.6.2.r1-07100-89xx.0
 - Using 3.18, Not gonna ship it until its stable af
-
-PS: write this debug.hwui.renderer=skiavk on vendor/build.prop and restart will improve Ux and SOT
 
