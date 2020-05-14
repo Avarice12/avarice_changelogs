@@ -1,13 +1,11 @@
 All ROM Changelogs for mido:
-- Include MiuiCamera from Daisy
+- Reverted Vulkan And Perfd (Caused too much issue)
+- Remove CPU0 Governor check on EAS
 - Rework Audio HAL
 - Fix the flicker issue this time
 - Set hvdcp_opti service as disabled 
-- Disable perfd prop for now
-- Disable Sched boost
 - Fix Dual SIM
 - Silence GMS Denials
-- Vulkan Set as default gpu rendering now (Improved Perf and SOT)
 - Put msm_irqbalance on system_background
 - Reimported Crosshatch EAS PowerHAL with Optimized Powerhint Thanks to @Nicklas373 & @Alvian29
 - Setprop vendor.gpu.available & Remove KPI marker at ADSP start. 
