@@ -1,19 +1,18 @@
 All ROM Changelogs for mido:
 - Reverted Vulkan And Perfd (Caused too much issue)
-- Remove CPU0 Governor check on EAS
-- Rework Audio HAL
-- Fix the flicker issue this time
-- Set hvdcp_opti service as disabled 
-- Fix Dual SIM
-- Silence GMS Denials
-- Put msm_irqbalance on system_background
-- Reimported Crosshatch EAS PowerHAL with Optimized Powerhint Thanks to @Nicklas373 & @Alvian29
-- Setprop vendor.gpu.available & Remove KPI marker at ADSP start. 
-- Tuning EAS PowerHAL (Schedutil, Idle State, Stune Camera, VM, CpuSets)
-- Imported Game Jank Reducer (libdolphin and libqti-at)
-- Update qti-telephony from daisy-QKQ1.191002.002
-- Update msm_irqbalance from sailfish-QP1A.191005.007
-- Switch to EAS Perf from Taimen-QQ2A.200501.001 
-= Update CarrierConfig from LA.UM.8.6.2.r1-07100-89xx.0
-- Using 3.18, Not gonna ship it until its stable af
-
+- Remove CPU0 Governor check on EAS ( U can use any other governor now)
+- Set PowerHAL hwbinder thread to high CFS priority
+- Add explicit initialization for last timestamp and fix time unit
+- Tune ZRAM performance (Affect for EAS Only!)
+- Nuke IO Prefetcher
+- Remove MiuiCamera and Back to Snap Camera
+- Disable more sched_boost
+- Configure audio app cpuset 
+- Addressed FPSInfo and Sysinfo Denials (Working now on rom side)
+- Silence Bluetooth LogSpam
+- Remove deprecated TARGET_USES_64_BIT_BINDER
+- Fixed Dirac Effect (Untested, U test and report ASAP!)
+- Added Snap Camera overlay 
+- Kang Wifi And Overlay Configuration from Miui Daisy Q 
+- Set network mode to Global by default
+- Added Touch Improvements Magisk Moduel by Default (Untested)
