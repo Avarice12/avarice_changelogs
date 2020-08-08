@@ -1,0 +1,29 @@
+NusantaraProject v1.0 Rebirth | 09/08/2020
+Changelogs: 
+- Drop AptX Blobs
+- Shipped with Kizuna Kernel with Proton Clang 12.0
+- Merged EAS Scheduler Improvement 
+- NusantaraParts Improvement with more feature
+- IR/DRM/Widevine/WiFi converted to dynamic HALs
+- Disable iowait boost and Display offsett 
+- Override Color Modes
+- Set Allocstall threshold to 70 
+- Update carrier specific configs
+- Improved Signal with RSSNR and Inflate Strenght
+- Update GPS from LA.UM.8.6.r1-04400-89xx.0
+- Update wcnss_service from VsmartCasuarina
+- Back to Pixel Thermal HALs 2.0 & Reconfigure Thermal Limit
+- Import and bind mount loader config for media swcodec
+- Resolve kernel trace_marker permissions on post-fs 
+- Do not balance MDSS and kgsl-3d0 on msm_irqbalance
+- Update init-self with system-background cpusets for more effective cores
+- Update msm_irqbalance permission
+- Enable Seamless Transfer
+- Hide mobile plan from Settings
+- Set max notification icon number as 7
+- Add Hostapd configs from CAF
+- Merge gps_debug.conf to gps.conf and use xtraservers
+- Enable Volte/VoWIFI/VILTE for IDEA, Russia, Telkomsel Indonesia
+- A lot of underhood optimizations
+
+
