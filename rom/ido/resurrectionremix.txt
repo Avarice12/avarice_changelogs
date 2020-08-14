@@ -1,0 +1,8 @@
+Resurrection Remix Q 8.5.7 | 14/08/2020
+Changelogs:
+- Added FaceUnlock
+- Default Kernel is Mokee
+- We're back on 1.2 Legacy PowerHAL
+- Disable GoogleHotword and DiscoveryService
+- Disable Alpha Compositing
+- Stability and Battery Improvements
