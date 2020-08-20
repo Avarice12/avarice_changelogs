@@ -1,0 +1,11 @@
+Bootleggers 5.1 Unshishufied | 21/08/2020
+Changelogs:
+- Moved to Latest Zeelog Tree's
+- August Security Patch Merged
+- Shipped with Clarity r17 Kernel 3.18
+- Disable Interaction boost
+- Added Advanced Controls
+- Disable sched guided freq control
+- Update Dalvik-Heap Configuration
+- Checkout powerhint.xml from stock msm8953-common
+- Implement Advanced Location Tile from ROM side
