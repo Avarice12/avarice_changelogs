@@ -1,5 +1,6 @@
 Bootleggers 5.2 Unshishufied | 31/08/2020
 Changelogs:
+- Added FaceUnlock 
 - Enable Non Legacy Powerhal
 - Enable cpusets on hvdcp_opti
 - Update Powerprofile from YSL
