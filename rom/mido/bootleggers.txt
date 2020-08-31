@@ -1,11 +1,15 @@
-Bootleggers 5.1 Unshishufied | 21/08/2020
+Bootleggers 5.2 Unshishufied | 31/08/2020
 Changelogs:
-- Moved to Latest Zeelog Tree's
-- August Security Patch Merged
-- Shipped with Clarity r17 Kernel 3.18
-- Disable Interaction boost
-- Added Advanced Controls
-- Disable sched guided freq control
-- Update Dalvik-Heap Configuration
-- Checkout powerhint.xml from stock msm8953-common
-- Implement Advanced Location Tile from ROM side
+- Enable Non Legacy Powerhal
+- Enable cpusets on hvdcp_opti
+- Update Powerprofile from YSL
+- Update overlay From Daisy-Q Release 
+- Update Powerhint from msm8953-common
+- Disable some schedboost & foreground boost
+- Update Vulkan hardware level supported to 1
+- Update Mpeg4 encoder max supported resolution
+- Update qti-whitelist.xml from LA.UM.8.6.r1-04700-89xx.0
+- Update privapp-permission-qti from LA.UM.8.6.r1-04700-89xx.0
+- Back to my modified tree with latest zeelog changes
+- And many more u can check on my github :p 
+
