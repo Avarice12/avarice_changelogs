@@ -1,29 +1,32 @@
-NusantaraProject v1.0 Rebirth | 09/08/2020
+NusantaraProject v1.1 Rengasdengklok | 09/08/2020
 Changelogs: 
-- Drop AptX Blobs
-- Shipped with Kizuna Kernel with Proton Clang 12.0
-- Merged EAS Scheduler Improvement 
-- NusantaraParts Improvement with more feature
-- IR/DRM/Widevine/WiFi converted to dynamic HALs
-- Disable iowait boost and Display offsett 
-- Override Color Modes
-- Set Allocstall threshold to 70 
-- Update carrier specific configs
-- Improved Signal with RSSNR and Inflate Strenght
-- Update GPS from LA.UM.8.6.r1-04400-89xx.0
-- Update wcnss_service from VsmartCasuarina
-- Back to Pixel Thermal HALs 2.0 & Reconfigure Thermal Limit
-- Import and bind mount loader config for media swcodec
-- Resolve kernel trace_marker permissions on post-fs 
-- Do not balance MDSS and kgsl-3d0 on msm_irqbalance
-- Update init-self with system-background cpusets for more effective cores
-- Update msm_irqbalance permission
-- Enable Seamless Transfer
-- Hide mobile plan from Settings
-- Set max notification icon number as 7
-- Add Hostapd configs from CAF
-- Merge gps_debug.conf to gps.conf and use xtraservers
-- Enable Volte/VoWIFI/VILTE for IDEA, Russia, Telkomsel Indonesia
-- A lot of underhood optimizations
-
+- Redesign NusantaraParts 
+- Add permissions for RCS service
+- Shipped with Latest Kizuna kernel 
+- Disable few debug services
+- Re-configure thermal for xo-therm-adc and bms sensors
+- Set sqlite optimization for f2fs users
+- Add new config overlay for call composer
+- Remove Dumpstate and camera support on libperfmgr
+- Improved Bootanimation time to start earlier
+- Improved Dt2w function to use simple method
+- Remove Wifi & Wpa_supplicant debugging
+- Remove deprecated dyn_samplingrate property
+- Disable sdm rotator downscaler
+- Kang more Surfaceflinger props from CAF
+- Revert PixelCharging animation to MiuiOffline Charging
+- Patched goodix blobs for parcel class size in Android Q
+- Enable volte and VoWifi for Vodafone AU and GR
+- Update ueventd rules and init rc for new audio drivers
+- Bind more services to system-background cpuset
+- Improved Stability And Performance 
+- Update Perf from Taimen-QQ3A.200805.001 
+- Merged Custom Native from LA.UM.8.1.r1-15800-sm8150.0
+- Import WCNSS_qcom_wlan from Fairphone3+.0033.20200815
+- Update WIFI from LA.UM.8.6.2.r1-08400-89xx.0 
+- Update Rootdir from LA.UM.8.6.2.r1-08100-89xx.0
+- Update Bluetooth from LA.UM.8.6.r1-04700-89xx.0 
+- Import Tweaked GPS configs from Casuarina-QKQ1.200311.002
+- Update Audio/ADSP/Module/PortBridge from Daisy-V11.0.9.0.QDLMIXM 
+- Update ANT+/GPS/CNE/DPM/TimeService/PowerOffAlarm/DRM/WCNSS/CNSS/Keystore/Widevine/Gatekeeper/Modem/TUI/WFD/Charger/CameraFirmware/Adreno/Vulkan/Media/FM/Radio/IMS from Casuarina-QKQ1.200311.002
 
