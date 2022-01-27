@@ -1,0 +1,18 @@
+|==========| AvariceXC - Codename:Akeno |=========|
+
+Date : 26/01/2022
+
+Changelogs: 
+• Merged v4.14.262 
+• Enable ION_SYSTEM_HEAP
+• Enable LTO/ThinLTO for performance impact
+• Backport rcu from v5.4, thanks to @mochi
+• Improvement for Scheduler and latency
+• Improvement for msm_simple_thermal configuration
+• Enable Thermal DCVS again for optimized temp
+• Bump vmstats interval to 60
+• Import binder from android12-5.10
+• Tune schedutil rate limit for little,big and prime cpu
+• Optimize frequency table and energy model, thanks to @kdrag0n
+• Revert all uclamp changes, back to stable uclamp value
+• Many more changes that i can write maybe lul
