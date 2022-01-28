@@ -1,18 +1,22 @@
 |==========| AvariceXC - Codename:Akeno |=========|
 
-Date : 26/01/2022
+Date : 28/01/2022
 
 Changelogs: 
+• Compiled Using Dora Clang 14
+• Pelt 24ms
+• UClamp
 • Merged v4.14.262 
-• Enable ION_SYSTEM_HEAP
-• Enable LTO/ThinLTO for performance impact
-• Backport rcu from v5.4, thanks to @mochi
-• Improvement for Scheduler and latency
-• Improvement for msm_simple_thermal configuration
-• Enable Thermal DCVS again for optimized temp
-• Bump vmstats interval to 60
-• Import binder from android12-5.10
-• Tune schedutil rate limit for little,big and prime cpu
-• Optimize frequency table and energy model, thanks to @kdrag0n
-• Revert all uclamp changes, back to stable uclamp value
-• Many more changes that i can write maybe lul
+• Merged Latest Common Kernel
+• Merged Latest CAF, qcacld, qca-wifi-host-cmn, fw-api to Latest
+• Merged Latest F2FS Linux Stable
+• Optimize frequency table and energy model
+• Using msm_simple_thermal 
+• KCAL support
+• Audio/Sound Gain support
+• Any other things that i lazy to write.
+
+Notes: 
+• Android 11-12 Compatible
+• Didnt test on MIUI, u can try but DWYOR
+• Based on Chaldea Kernels Big thanks to @nullxception
