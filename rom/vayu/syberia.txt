@@ -1,29 +1,39 @@
 |==========| POCO X3 Pro / Vayu |==========|
 
-Date : 26/01/2022
+Date : 11/02/2022
 
 Source Changelogs:
-• Included Gaming Mode
-• Added Headsup Tile
-• Allow user to add/remove QS with one click 
+• February Security Patch
+• Include Google Apps Now
+• Added Black Theme Options
+• Added Toggle to disabling ripple effect 
+• Added GamesProps (Maybe revert if there's problem)
+• Update NFC Icon
+• Update Vibrate Icon
+• Disable few spam log
+• Allow toggling camera/mic privacy indicator
+• Allow toggling location privacy indicator
+• Added Sync Tile
+• Added Compass Tile
+• Added Min/Max RefreshRate options on Display
+• Move DPI option under Display
+• Smoothness and Stability Improvements
 
 Device Changelogs :
-• Switch to QTI BT stack
-• Disable RX wakelock feature on wifi
-• Disable LMKD log stats
-• Increase ZRAM size to 3GB 
-• Address denials on boot
-• Drop ACDB workspaces file
-• Added missing DPM service app
-• Fixed performance regression on previous build
-• Update Adreno and Vulkan blobs from MIUI 13
-• Update IMS from alioth-qssi-user-12-SKQ1.210908.001 
+• Switch to CAF Thermal
+• Include Pixel Offline Charging
+• Added KCAL Support on Display
+• Switch to armv8-2a dotprod
+• Uprev bluetooth audio HIDL impl to 2.1
+• Remove Dyanamic Thermal & Touch profiles
+• Update few Blobs to LA.UM.9.1.r1-10900-SMxxx0.0
+• Some Underhood optimization that i'm lazy to wrote
 
 Notes: 
 • OSS Based 
 • User Build
 • Selinux is Enforcing
-• Vanilla/GApps not Included 
+• GApps Included 
 • Clean flash is mandatory 
 • SafetyNet passes out of the box 
 • Recommended Firmware Stock 12.0.x/12.5.x
