@@ -1,16 +1,21 @@
 |==========| AvariceXC - Codename:AkenoHimejima |=========|
 
-Date : 14/02/2022
+Date : 02/03/2022
 
 Changelogs: 
+• Merged v4.14.268
+• Bump version to r2
 • Compiled Using Dora Clang 15.0 LLD
-• Merged kernel to LA.UM.9.1.r1-11600-SMxxx0.0
-• Merged latest common kernel
-• Merged v4.14.266 
-• Enable Polly Clang Optimization
-• Introduce minimal tracing for iorapd
-• Many more improvement that im lazy to wrote, check on github.
+• Fixed Random Reboot when connecting to USB 
+• Scheduler and latency improvement
+• Thermal improvements
+• Disable forcing top-app tasks on uclamp
+• Added 75 fps support 
+• Added few frequency back for little, big and prime  
+• Merged kernel to LA.UM.9.1.r1-11600.03-SMxxx0.QSSI12.0
+• Many other improvements that u can check on my github
 
 Notes: 
 • AOSP/LOS 11-12 Compatible
 • MIUI Not Compatible
+• Thanks to @nullxception for Chaldea Kernel
