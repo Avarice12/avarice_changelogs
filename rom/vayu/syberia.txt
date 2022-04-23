@@ -1,14 +1,18 @@
 |==========| POCO X3 Pro / Vayu |==========|
 
-Date : 24/02/2022
+Date : 24/04/2022
 
 Source Changelogs:
-• Source Upstream to v5.2
-• Added FaceUnlock Services
-• Enable FUSE Passthrough for sdcard speed improvements
-• Fixed MTP/USB not working on last source
-• Added 75Hz Supports on Refresh Rate
-• Extract blobs from miui_VAYUIDGlobal_V12.5.6.0.RJUIDXM
+• Source Upstream to v5.4
+• Import power_profil from Coral
+• Switch back to mi_thermald
+• Disable prefer_idle for NNAPI-HAL
+• Remove deprecated energy-awareness
+• Strip off some debug packages
+• Implement fingeprint boost hint
+• Fix F2fsRecessModeEnable node on powerhint
+• Update Blobs from MIUI V13.0.1.0.SJUIDXM
+• Update graphics blobs from from LA.UM.9.14.r1-18900-LAHAINA.QSSI12.0
 
 Notes: 
 • OSS Based 
