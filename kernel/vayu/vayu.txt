@@ -1,20 +1,9 @@
 |==========| AvariceXC - Codename:Kanaeru |=========|
 
-Date : 20/05/2022
+Date : 25/05/2022
 
 Changelogs: 
-• Merge latest v4.14.280 linux kernel update from google common
-• Merge tag 'LA.UM.9.1.r1-11900-SMxxx0.0'for kernel, wlan and audio from CAF
-• Revert some cpuidle/s2idle commits
-• Optimize msm_simple_thermal config again
-• Reapply some NAN & SRD revert updates on qcacld and qcacmn
-• Added Anxienty & Maple iosched
-• Added blu_schedutil governor
-• Upstream srandom to v1.41.0
-• Enable Ultra High Speed mode on srandom
-• Import latest version of Arm Optimized Routines
-• Other fixes and improvements under the hood 
-• More Changelogs here : https://github.com/Avarice12/platform_kernel_xiaomi_vayu/commits/staging/12.1
+• Hotfix Updates for fixing WiFi issue on some roms (ex: EvoX, Nusantara, Etc)
 
 Notes: 
 • MIUI/Other Port Rom Not Compatible
