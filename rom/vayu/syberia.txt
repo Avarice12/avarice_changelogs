@@ -1,22 +1,39 @@
 |==========| POCO X3 Pro / Vayu |==========|
 
-Date : 17/05/2022
+Date : 19/06/2022
 
 Source Changelogs:
-• Source Upstream 
-• May Security Patch
-• Update surfaceflinger props
-• Remove trace printk from init
-• Enable pre-rendering prop
-• Optimize ART, Dex and Preopt
-• Fixed Thermal charging (Now Speed is normal on 3k)
-• And many other improvement 
+• June Security Patch
+• Added HeadsUp Tile
+• Redesign Volume Panel
+• Added NavigationBar Tile
+• Double tap to trigger doze
+• Make IME button space optional
+• Implement cutout force full screen
+• Redesign Settings, Ui and About Phone
+• Added brightness changes from DotOS 5.2
+• Implement VRR (Variable Refresh Rates) from @arter97
+• Added Mobile Legend & KingGlory to Spoof with Mi 11 Ultra
+• Added various icon pack (A11, Outlines, OxygenOS, Acherus, PUI)
+• Added Chaldea GameSpace with Moar Feature (ex: Lock Gesture, MemoryInfo, BatteryRemainingText, etc)
+
+Device Changelogs: 
+• Update GPS Config to S
+• Update SideFps overlays
+• Add QTI health implementation
+• Use coral tuning for columbus feature
+• Register Moonton Games libraries to sched_lib_name
+• Set debug.sf.layer_caching_active_layer_timeout_ms to 1000
 
 Notes: 
 • OSS Based 
 • User Build
 • Selinux is Enforcing
-• GApps Included 
-• Clean flash is mandatory 
+• GApps Already Included
+• Clean flash is Recommended
 • SafetyNet passes out of the box 
 • Recommended Firmware Stock 12.0.x/12.5.x
+
+Special Credits:
+• Big thanks to @NATO66613 for bring this new ui to syberia.
+• Big thanks to all tester @sexsordied, @GodRae, @Tetuko and many more.
