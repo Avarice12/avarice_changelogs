@@ -1,6 +1,6 @@
 |==========| POCO X3 Pro / Vayu |==========|
 
-Date : 22/06/2022
+Date : 24/06/2022
 
 Source Changelogs:
 • June Security Patch
@@ -8,8 +8,21 @@ Source Changelogs:
 • Redesign Volume Panel
 • Added NavigationBar Tile
 • Redesign Settings, Ui and About Phone
-• Added brightness changes from DotOS 5.2
+• Double tap to trigger doze
+• Make IME button space optional
+• Implement cutout force full screen
+• Add pref for qs brightness slider position
+• Option to Display Data Disabled Indicator Icon
+• Make roaming indicator optional
+• Media notification background customisations
+• Added Reticker
+• Introduce OOS style notification clear all button
+• Added 9 more battery styles
+• Add 14 New VoLTE Icon
+• Toggle data usage view on QS footer
+• Import RenderingJitter test from FWB
 • Implement VRR (Variable Refresh Rates) from @arter97
+• Added various icon pack (A11, Outlines, OxygenOS, Acherus, PUI)
 • Added Mobile Legend & KingGlory to Spoof with Mi 11 Ultra
 • Added Chaldea GameSpace with Moar Feature (ex: Lock Gesture, MemoryInfo, BatteryRemainingText, etc)
 
