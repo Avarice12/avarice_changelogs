@@ -1,9 +1,27 @@
 |==========| AvariceXC - Codename:Kanaeru |=========|
 
-Date : 25/05/2022
+Date : 12/07/2022
 
 Changelogs: 
-• Hotfix Updates for fixing WiFi issue on some roms (ex: EvoX, Nusantara, Etc)
+• Bump AvariceXC to r6
+• Switch back to Pelt 16ms
+• Upstream Kernel version to v4.14.287
+• Upstream CAF tag to LA.UM.9.1.r1-12000-SMxxx0.QSSI13.0
+• Update ZRAM optimization from v5.12
+• Update vmalloc optimization from v5.4
+• Drop Srandrom due to random from linux
+• Update fuse/passthrough optmization
+• Affine hwc and surfaceflinger to prime
+• Merge update exfat from namjaejeon
+• Back to full table frequency with correct energy model
+• Cover more WALT balancing case
+• Improvement on pelt scheduler
+• Disable Simple Thermal -> Back to default thermal with some optimization
+• Added Cpu Input Boost and Devfreq Boost 
+• Update crypto algorithms to the ARM's accelerated impl.
+• Fixed stuck when capturing photo on some app (ex: telegram, whatsapp)
+• Fixed delay audio/video on some apps ? maybe u need check n tell me
+• Other fixes and improvements under the hood
 
 Notes: 
 • MIUI/Other Port Rom Not Compatible
