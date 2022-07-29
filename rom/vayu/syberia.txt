@@ -3,37 +3,30 @@
 Date : 24/06/2022
 
 Source Changelogs:
-• June Security Patch
-• Added HeadsUp Tile
-• Redesign Volume Panel
-• Added NavigationBar Tile
-• Redesign Settings, Ui and About Phone
-• Double tap to trigger doze
-• Make IME button space optional
-• Implement cutout force full screen
-• Add pref for qs brightness slider position
-• Option to Display Data Disabled Indicator Icon
-• Make roaming indicator optional
-• Media notification background customisations
-• Added Reticker
-• Introduce OOS style notification clear all button
-• Added 9 more battery styles
-• Add 14 New VoLTE Icon
-• Toggle data usage view on QS footer
-• Import RenderingJitter test from FWB
-• Implement VRR (Variable Refresh Rates) from @arter97
-• Added various icon pack (A11, Outlines, OxygenOS, Acherus, PUI)
-• Added Mobile Legend & KingGlory to Spoof with Mi 11 Ultra
-• Added Chaldea GameSpace with Moar Feature (ex: Lock Gesture, MemoryInfo, BatteryRemainingText, etc)
+• July Security Patch
+• Allow VPN to tethering 
+• Enable freform windows by default
+• Fix issue text select copy on gboard
+• Spoof Mobile Legend and Apex on Mi 11
+• Lockscreen clock improvement
 
 Device Changelogs: 
-• Update GPS Config to S
-• Update SideFps overlays
-• Add QTI health implementation
-• Use coral tuning for columbus feature
-• Register Moonton Games libraries to sched_lib_name
-• Set debug.sf.layer_caching_active_layer_timeout_ms to 1000
-• Bump AvariceXC kernel to R5 with many optimizations
+• Update TetheringOverlay & WifiOverlay
+• Disable SDM rotator downscaler
+• Fine tune the read_ahead size
+• Clean fs tuning a bit
+• Switch to bw_hwmon governor for devfreq on init
+• Drop unsupported RAW profile in io policy
+• Remove dynamic attributes from APS config
+• Bring back ULL mode on audio
+• Import lmkd props from google gki
+• Update CarrierConfig from 5800 QSSI
+• Disable IORapd 
+• Revert Vulkan renderer
+• Disable adsprpcd
+• Enable LZ4 compression for ramdisks
+• Make VRR less aggressive
+• Update adreno blobs from LA.UM.9.14.r1-19300-LAHAINA.QSSI12.0
 
 Notes: 
 • OSS Based 
