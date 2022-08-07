@@ -1,27 +1,25 @@
-|==========| AvariceXC - Codename:Kanaeru |=========|
+\|==========| AvariceXC - Codename:Kanaeru |=========|
 
-Date : 12/07/2022
+Date : 07/08/2022
 
 Changelogs: 
-• Bump AvariceXC to r6
-• Switch back to Pelt 16ms
-• Upstream Kernel version to v4.14.287
-• Upstream CAF tag to LA.UM.9.1.r1-12000-SMxxx0.QSSI13.0
-• Update ZRAM optimization from v5.12
-• Update vmalloc optimization from v5.4
-• Drop Srandrom due to random from linux
-• Update fuse/passthrough optmization
-• Affine hwc and surfaceflinger to prime
-• Merge update exfat from namjaejeon
-• Back to full table frequency with correct energy model
-• Cover more WALT balancing case
-• Improvement on pelt scheduler
-• Disable Simple Thermal -> Back to default thermal with some optimization
-• Added Cpu Input Boost and Devfreq Boost 
-• Update crypto algorithms to the ARM's accelerated impl.
-• Fixed stuck when capturing photo on some app (ex: telegram, whatsapp)
-• Fixed delay audio/video on some apps ? maybe u need check n tell me
+• Bump AvariceXC to r7
+• Upstream Kernel version to v4.14.290
+• Upstream CAF tag to LA.UM.9.1.r1-12100.01-SMxxx0.QSSI13.0
+• Compiled using Kizuna Clang 15.0 Thanks to @Nanami337
+• Increase thermal trip points to 16
+• Use -03 instead of -Ofast Optimization 
+• Debloat debugging on qcacmn and qcacld 
+• Update RCU from 5.4
+• Add and Enable MGLRU
+• Reconfigure RCUBoost, CpuSets, InputBoost and DevfreqBoost
+• Back to Old Frequency Tables (Due to performance regression)
+• Add More Freq 576000, 844800, 940800, 1497600 (This freq will replace full table, with more efficient energy and battery backup without affecting performance)
+• Tweak CPUSETS/UClamp Assist Values
+• Some Scheduler Improvements
 • Other fixes and improvements under the hood
+• Little Notes: After R7 Release Avarice can booted normally on MIUI if u want to try flash.
+
 
 Notes: 
 • MIUI/Other Port Rom Not Compatible
