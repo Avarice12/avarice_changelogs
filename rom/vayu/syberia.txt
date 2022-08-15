@@ -1,32 +1,21 @@
 |==========| POCO X3 Pro / Vayu |==========|
 
-Date : 24/06/2022
+Date : 15/08/2022
 
 Source Changelogs:
-• July Security Patch
-• Allow VPN to tethering 
-• Enable freform windows by default
-• Fix issue text select copy on gboard
-• Spoof Mobile Legend and Apex on Mi 11
-• Lockscreen clock improvement
+• August security update
+• SQLite updated to 3.39.2
+• QS columns count in portrait mode settings
+• Fixed QS expand lag when IMS icons is showing
+• GameSpace improvements
+• ART improvements
+• Other fixes and improvements under the hood
+• Allow toggling combined signal icons
+• User toggle for GamesProp
+• User toggle for unlimited photos storage
 
-Device Changelogs: 
-• Update TetheringOverlay & WifiOverlay
-• Disable SDM rotator downscaler
-• Fine tune the read_ahead size
-• Clean fs tuning a bit
-• Switch to bw_hwmon governor for devfreq on init
-• Drop unsupported RAW profile in io policy
-• Remove dynamic attributes from APS config
-• Bring back ULL mode on audio
-• Import lmkd props from google gki
-• Update CarrierConfig from 5800 QSSI
-• Disable IORapd 
-• Revert Vulkan renderer
-• Disable adsprpcd
-• Enable LZ4 compression for ramdisks
-• Make VRR less aggressive
-• Update adreno blobs from LA.UM.9.14.r1-19300-LAHAINA.QSSI12.0
+Device Changelogs:
+• Revert back some audio configs
 
 Notes: 
 • OSS Based 
@@ -38,5 +27,4 @@ Notes:
 • Recommended Firmware Stock 12.0.x/12.5.x
 
 Special Credits:
-• Big thanks to @NATO66613 for bring this new ui to syberia.
 • Big thanks to all tester @sexsordied, @GodRae, @Tetuko and many more.
