@@ -1,21 +1,15 @@
 |==========| POCO X3 Pro / Vayu |==========|
 
-Date : 15/08/2022
+Date : 23/09/2022
 
-Source Changelogs:
-• August security update
-• SQLite updated to 3.39.2
-• QS columns count in portrait mode settings
-• Fixed QS expand lag when IMS icons is showing
-• GameSpace improvements
-• ART improvements
-• Other fixes and improvements under the hood
-• Allow toggling combined signal icons
-• User toggle for GamesProp
-• User toggle for unlimited photos storage
-
-Device Changelogs:
-• Revert back some audio configs
+Changelogs:
+• September security update
+• Revert lmkd props from google gki
+• Revert blkio tuning from coral
+• Import userdata, cpuctl tuning from oriole
+• Tune adaptive suspend parameters
+• Move some service using task_profiles
+• Use QCOM implementation for audio effects
 
 Notes: 
 • OSS Based 
