@@ -1,30 +1,25 @@
-\|==========| AvariceXC - Codename:Kanaeru |=========|
+|==========| AvariceXC - Codename:Kanaeru |=========|
 
-Date : 07/08/2022
+Date : 17/10/2022
 
 Changelogs: 
-• Bump AvariceXC to r7
-• Upstream Kernel version to v4.14.290
-• Upstream CAF tag to LA.UM.9.1.r1-12100.01-SMxxx0.QSSI13.0
-• Compiled using Kizuna Clang 15.0 Thanks to @Nanami337
-• Increase thermal trip points to 16
-• Use -03 instead of -Ofast Optimization 
-• Debloat debugging on qcacmn and qcacld 
-• Update RCU from 5.4
-• Add and Enable MGLRU
-• Reconfigure RCUBoost, CpuSets, InputBoost and DevfreqBoost
-• Back to Old Frequency Tables (Due to performance regression)
-• Add More Freq 576000, 844800, 940800, 1497600 (This freq will replace full table, with more efficient energy and battery backup without affecting performance)
-• Tweak CPUSETS/UClamp Assist Values
-• Some Scheduler Improvements
-• Other fixes and improvements under the hood
-• Little Notes: After R7 Release Avarice can booted normally on MIUI if u want to try flash.
-
+• Bump AvariceXC to r9
+• Compiled using Dora Clang 15.0 Again
+• Upstream Kernel version to v4.14.295
+• Upstream CAF tag to LA.UM.9.1.r1-12600.01-SMxxx0.QSSI13.0
+• Disable more debugging and unneeded options on qcacld
+• Tweak CFQ i/o sched
+• Update lz4 to 1.9.4
+• Increase UCLAMP_BUCKET_COUNT to 20
+• Re-enable CONFIG_FAIR_GROUP_SCHED for UCLAMP
+• Set uclamp_util_min_rt_default to 0
+• Tune uclamp_assist parameters thanks to xNombre
+• Fixed tiktok lagging delay issue while playing video and audio
 
 Notes: 
-• MIUI/Other Port Rom Not Compatible
-• Big Thanks to Chaldea for kernel base
-• AOSP/LOS 11-12 should be compatible (Some rom's maybe not working dunno why :3)
+• Big Thanks to nullxception for kernel base.
+• Miui Support Now, But don't report anything.
+• AOSP/LOS 11-13 should be compatible
 
 Credits: 
 @nullxception
