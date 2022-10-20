@@ -1,15 +1,18 @@
 |==========| POCO X3 Pro / Vayu |==========|
 
-Date : 23/09/2022
+Date : 21/10/2022
 
 Changelogs:
-• September security update
-• Revert lmkd props from google gki
-• Revert blkio tuning from coral
-• Import userdata, cpuctl tuning from oriole
-• Tune adaptive suspend parameters
-• Move some service using task_profiles
-• Use QCOM implementation for audio effects
+• October security patch update
+• Add option to tune Transparant QS
+• lmkd props from google gki
+• Add support for BT LC3 codec 
+• Remove FM Tuner from input devices
+• Adjust lmkd kill timeout
+• Fix F2fsRecessMode on powerhint
+• Fix mic volume in some apps
+• Add and update SyberiaPapers and Bootanimation from Syberia v6.0
+• Update Adreno blobs from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0
 
 Notes: 
 • OSS Based 
