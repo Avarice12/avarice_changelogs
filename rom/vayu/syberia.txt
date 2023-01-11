@@ -1,19 +1,11 @@
 |==========| POCO X3 Pro / Vayu |==========|
 
-Date : 26/10/2022
+Date : 11/01/2023
 
 Changelogs:
-• Hotfix Updates for HOMEMADE builds
-• Add Navbar Styles
-• October security patch update
-• Alow user to set Transparent QS
-• Fixed f2fs recess mode on powerhint
-• Separate Wi-Fi and Data Tiles
-• Revert recently adreno blobs update
-
-Reminder:
-• ANX Camera fully supported, Use Magisk Modules from here https://sourceforge.net/projects/vayu-repository/files/Miscellaneous/ANXCamera/
-• This is the last update for 12.1 version, see u in 13 maybe :p
+• January 2023 Security Patch 
+• Upstream to latest kernel tag
+• Fixed Mic and Audio issue from last release
 
 Notes: 
 • OSS Based 
