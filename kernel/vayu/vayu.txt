@@ -1,33 +1,17 @@
 |==========| AvariceXC - Codename:Kanaeru |=========|
 
-Date : 10/11/2022
+Date : 13/06/2023
 
 Changelogs: 
-• Upstream kernel to v4.14.298 
-• Upstream exfat from latest namjaejeon repo
-• Merge CAF Tag to LA.UM.9.1.r1-12800-SMxxx0.QSSI13.0 
-• Fixed random reboot when device gets too hot
-• Set schedutil and blu_schedutil up/down rate limits
-• Switch to full LTO optimizations
-• Sync blu_schedutil to our latest schedutil changes
-• Switch to step-wise thermal governor
-• Other fixes and improvements under the hood
+• Upstream kernel to v4.14.317
+• Upstream f2fs-stable from jaeguk repo
+• Upstream IncrementalFS v2 from 4.19
+• Upstream CAF tag from LA.UM.9.1.r1-13500-SMxxx0.QSSI13.0
+• Cleanup scheduler and back to pelt without uclamp
+• Revert all thermal changes, back to default
 
 Notes: 
-• Big Thanks to nullxception for kernel base.
-• Miui Support Now, But don't report anything.
-• AOSP/LOS 11-13 should be compatible
+• If u faced some bootloop on POCO's logo, try to force reboot its should be fine.
 
-Credits: 
-@nullxception
-@xNombre
-@kerneltoast
-@RealJohnGalt
-@dereference23
-@darkhzykh
-@DemonSingur
-@kdrag0n
-@wight554
-@YaroST12
-@NATO66613
-@arter97
+Credits:
+• Big Thanks to nullxception for kernel base.
